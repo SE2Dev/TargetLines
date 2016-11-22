@@ -24,11 +24,6 @@ public class TargetLines : ModuleRules
 			
 		
 		PublicDependencyModuleNames.AddRange(
-            /*new string[]
-			{
-				"Core",
-				// ... add other public dependencies that you statically link with here ...
-			}*/
             new string[] { "Core", "CoreUObject", "Engine", "InputCore", "RenderCore", "InputCore",
                 "Slate",
                 "SlateCore",
@@ -38,10 +33,8 @@ public class TargetLines : ModuleRules
                 "PropertyEditor",
                 "AlembicLibrary",
                 "GeometryCache",
-                "RenderCore",
-                "RHI",
-                 "Core", "CoreUObject", "Engine", "InputCore", "RHI", "RenderCore", "ShaderCore"
-        }
+                "RHI", "ShaderCore"
+            }   
             );
 			
 		
