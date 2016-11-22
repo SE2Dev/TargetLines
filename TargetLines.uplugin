@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TargetLines",
+	"Description": "Adds a \"Targetable Comp\" Which can draw lines to target actors.",
+	"Category": "Other",
+	"CreatedBy": "SE2Dev",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TargetLines",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
